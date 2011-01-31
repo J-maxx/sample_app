@@ -40,5 +40,5 @@ require 'spec_helper'
       response.should have_selector('title', :content => 'Sign Up')
       response.should have_selector('a[href="/"]>img')
     end
-    
+  
 end
